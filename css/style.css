@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Quicksand&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html > *:not(.movie-title) {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.movie-card {
+    margin-top: 4rem;
+    height: 800px;
+    text-align: center;
+}
+
+.movie-title {
+    font-family: 'Palette Mosaic', cursive; 
+    font-size: 2.2rem;
+}
+
+.movie-genres {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+
+.movie-poster-container img {
+    margin-top: 0.5rem;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.movie-rating {
+    display: inline-block;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.movie-duration {
+    margin-left: 1rem;
+    letter-spacing: 0.08rem;
+}
+
+.movie-duration:before {
+    content:"\2022";
+}
+
+.movie-info-quote {
+    color: #151515a4;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.movie-info-overview-title {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+}
+
+.movie-info-actions {
+    font-size:1.1rem;
+}
+
+.movie-info-actions ul {
+    list-style: none;
+}
+
+.movie-info-actions ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(38, 83, 119);
+    border-radius: 50%;
+}
+
+.movie-info-actions ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #777;
+}
+
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+}
